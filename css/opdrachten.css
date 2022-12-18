@@ -1,0 +1,146 @@
+body{
+  background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    color: rgb(54, 49, 49);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto;
+}
+
+header{
+  background-color: rgb(255, 255, 191);
+  height: 25vh;
+  text-align: center;
+  border: 2px solid black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+}
+
+.box-container {
+  display: flex;   
+  flex-direction:column;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(255, 255, 191);
+  border: 2px solid black;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border-radius: 10px;
+
+}
+
+.box.one{
+  flex: auto;
+}
+
+.box.two{
+  flex:auto;
+}
+  nav a {
+    font-size: 20px;
+    color: rgb(54, 49, 49);
+    
+}
+  
+nav a:hover {
+    color: rgb(255, 0, 0);
+  }
+
+  
+  .card {
+    width: 70vw;
+    height: 108vh;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 191);
+    border-radius: 30px;
+    box-shadow: 7px 10px 17px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px;
+    color: rgb(54, 49, 49);
+    text-align: center;
+    margin-left: 12vw;
+}
+  
+  .feeder {
+    width: 67vw;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    object-fit:cover;
+  }
+  
+
+  .catfeeder a{
+    font-size: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(54, 49, 49);
+
+  }
+  
+  .catfeeder a:hover{
+    color: rgb(255, 0, 0);
+  
+  }
+  
+  footer{
+    background-color: rgb(255, 255, 191);
+    height: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+    color: rgb(54, 49, 49);
+    border-radius: 10px;
+  }
+  
+  h4{
+    margin:auto;
+  }
+  footer a:hover {
+    color: rgb(255, 0, 0);
+  }
+  
+  footer a{
+    color: rgb(54, 49, 49);
+
+  }
+  
+  
+  @media(min-width:786px){
+
+  header{   
+      height: 8vh;
+      width: 50vw;
+      margin: auto;
+      }
+
+  .box-container{
+        flex-direction:row;
+        height: 4vh;
+        text-align: center;
+        display: flex;
+  }
+  
+  .card {
+        width: 31vw;
+        height: 92vh;
+        margin: auto;
+}
+  
+  .feeder{
+      width: 30vw;
+      height: 85vh;
+}
+  
+  h2{
+      margin: auto;
+}
+
+footer{
+  width: 50vw;
+}
+
+}

@@ -1,0 +1,152 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+header{
+  background-color: rgb(255, 255, 191);
+  height: 20vh;
+  text-align: center;
+  border: 2px solid black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+}
+
+h1{
+  color: rgb(54, 49, 49);
+}
+
+.box-container {
+  display: flex;   
+  flex-direction:column;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(255, 255, 191);
+  border: 2px solid black;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border-radius: 10px;
+}
+  
+.box.one {
+    flex: 1;         
+  }
+.box.two {
+    flex: 1;
+  }
+
+.box.three {
+    flex: 1;
+  }
+
+
+  nav a{
+    color: rgb(54, 49, 49);
+  }
+  nav a:hover{
+    color:red;
+  }
+ 
+  div.box-container {
+    display: flex;   
+    flex-direction:column-reverse;
+    text-align: center;
+    background-color: rgb(255, 255, 191);
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 1vh;
+    border-radius: 10px;
+    height: 105vh;
+    width: 70vw;
+}
+  
+
+.box.four{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(54, 49, 49);
+    margin-top: -1vh;
+
+}
+
+  .foto{
+    height: 45vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    justify-content: flex-end;
+    margin-top: 2vh;
+    object-fit:cover;
+  }
+  
+  p{
+    margin-bottom: 5vh;
+  }
+  footer{
+    background-color: rgb(255, 255, 191);
+    height: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 3vh;
+    color: rgb(54, 49, 49);
+    border-radius: 10px;
+  }
+  
+  h4{
+    margin:auto;
+  }
+  footer a:hover {
+    color: rgb(255, 0, 0);
+  }
+  
+  footer a{
+    color: rgb(54, 49, 49);
+
+  }
+  
+  @media(min-width:786px){
+    header{   
+      height: 6vh;
+      width: 50vw;
+      margin: auto;
+    }
+
+h1{
+  margin: auto;
+}
+.box-container{
+      flex-direction:row;
+      height: 4vh;
+      text-align: center;
+      display: flex;
+}
+      
+div.box-container {
+        display: flex;   
+        flex-direction:row;
+        text-align: left;
+        background-color: rgb(255, 255, 191);
+        border: 3px solid black;
+        margin: auto;
+        margin-top: 1vh;
+        border-radius: 10px;
+        height: 40vh;
+        width: 50vw;
+}
+
+      div.box.four{
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 13vh;
+        margin: 1vh;
+
+      }
+
+      .foto{
+        margin: 1vh;
+        height: 35vh;
+      }
+}
+
+
+
