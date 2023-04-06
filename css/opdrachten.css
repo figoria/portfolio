@@ -49,6 +49,17 @@ nav a:hover {
   }
 
   
+  .wrapper{
+    display: flex;
+    overflow-x: auto;
+    flex-direction: row;
+    
+  }
+  
+  .wrapper::-webkit-scrollbar{
+    width: 0;
+  }
+  
   .card {
     width: 70vw;
     height: 108vh;
@@ -71,7 +82,7 @@ nav a:hover {
   }
   
 
-  .catfeeder a{
+  .title a{
     font-size: 70%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
